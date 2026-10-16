@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="28-maktab rasmiy veb-sayti">
+  <title>28-maktab | Rasmiy sayt</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f7f4;
+      color: #18352b;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #087443;
+      color: white;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 14px;
+      background: #075b36;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+    }
+
+    nav a:hover {
+      background: #118b55;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 45px 18px;
+      background: linear-gradient(135deg, #d8f5df, #ffffff);
+    }
+
+    .hero h2 {
+      font-size: 27px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #087443;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin: 5px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 25px 15px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px #0000000d;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+      color: #087443;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 12px;
+      color: #087443;
+      font-weight: bold;
+    }
+
+    .notice {
+      margin-top: 25px;
+      background: white;
+      padding: 22px;
+      border-radius: 14px;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 25px;
+      padding: 22px;
+      text-align: center;
+      color: white;
+      background: #075b36;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🏫 28-MAKTAB</h1>
+    <p>Maktabimizning rasmiy veb-sayti</p>
+    <p>Bilim — kelajak poydevori!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Bosh sahifa</a>
+    <a href="jadval.html">Dars jadvali</a>
+    <a href="test.html">Testlar</a>
+    <a href="yangiliklar.html">Yangiliklar</a>
+  </nav>
+
+  <section class="hero">
+    <h2>28-maktab saytiga xush kelibsiz!</h2>
+    <p>
+      Bu yerda dars jadvali, bilimni sinash testlari
+      va maktab yangiliklari bilan tanishishingiz mumkin.
+    </p>
+    <a class="button" href="jadval.html">📚 Dars jadvali</a>
+    <a class="button" href="test.html">📝 Test ishlash</a>
+  </section>
+
+  <main>
+    <h2 class="section-title">Sayt bo‘limlari</h2>
+
+    <div class="cards">
+      <article class="card">
+        <h3>📚 Dars jadvali</h3>
+        <p>Sinfingiz dars jadvalini ko‘rish uchun ushbu bo‘limga kiring.</p>
+        <a href="jadval.html">Jadvalni ochish →</a>
+      </article>
+
+      <article class="card">
+        <h3>📝 Bilimni sinash</h3>
+        <p>Fanlar bo‘yicha testlar orqali bilimlaringizni tekshiring.</p>
+        <a href="test.html">Testlarni ochish →</a>
+      </article>
+
+      <article class="card">
+        <h3>📢 Yangiliklar</h3>
+        <p>Maktabimiz yangiliklari va e’lonlarini kuzatib boring.</p>
+        <a href="yangiliklar.html">Yangiliklarni ko‘rish →</a>
+      </article>
+    </div>
+
+    <section class="notice">
+      <h2>🎓 Bizning maqsadimiz</h2>
+      <p>O‘quvchilar uchun qulay, zamonaviy va foydali maktab sayti yaratish.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 — 28-maktab</p>
+    <p>Bilim sari birgalikda!</p>
+  </footer>
+
+</body>
+</html>
